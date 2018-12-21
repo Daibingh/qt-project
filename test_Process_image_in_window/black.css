@@ -1,0 +1,61 @@
+QMainWindow {
+    background: #222;
+    border: 1px solid #04376C;
+}
+
+QPushButton {
+    border-radius: 4px;
+}
+QPushButton:enabled {
+    background: rgb(120, 170, 220);
+    color: white;
+}
+
+QPushButton:enabled:hover {
+    background: rgb(100, 160, 220);
+}
+
+/**********状态栏**********/
+QStatusBar {
+        background: #222;
+        border: 1px solid rgb(111, 156, 207);
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+}
+
+/**********分组框**********/
+
+QGroupBox::title {
+        color: #6aa84f;
+}
+
+/**********输入框**********/
+QLineEdit {
+        border-radius: 4px;
+        border: 1px solid rgb(111, 156, 207);
+        background: white;
+}
+QLineEdit:enabled {
+        color: rgb(84, 84, 84);
+}
+QLineEdit:enabled:hover, QLineEdit:enabled:focus {
+        color: rgb(51, 51, 51);
+}
+QLineEdit:!enabled {
+        color: rgb(80, 80, 80);
+}
+
+/**********滚动区域**********/
+QScrollArea {
+        border: 1px solid rgb(111, 156, 207);
+        background: #04376C;
+}
+
+#scrollAreaWidgetContents_2, #scrollAreaWidgetContents {
+    background: #575e61;
+}
+
+QLabel {
+        color: rgb(0, 160, 230);
+}

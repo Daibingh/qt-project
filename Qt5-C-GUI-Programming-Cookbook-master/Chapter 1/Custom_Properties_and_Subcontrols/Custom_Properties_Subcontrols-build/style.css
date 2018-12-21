@@ -1,0 +1,33 @@
+QPushButton
+{
+	color: white;
+	background-color: #27a9e3;
+	border-width: 0px;
+	border-radius: 3px;
+}
+
+QPushButton:hover
+{
+	color: white;
+	background-color: #66c011;
+	border-width: 0px;
+	border-radius: 3px;
+}
+
+QPushButton:pressed
+{
+	color: white;
+	background-color: yellow;
+	border-width: 0px;
+	border-radius: 3px;
+}
+
+
+QPushButton[pagematches=true]
+{
+	color: white;
+	background-color: red;
+	border-width: 0px;
+	border-radius: 3px;
+}
+
